@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vincent P. Evangelista</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="index.js"></script>
+   
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "dhXuqWyoYiOSCUaAD",
+      });
+   })();
+</script>
+
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#home"><i class="fas fa-home"></i></a>
+        <a href="#about"><i class="fas fa-user"></i></a>
+        <a href="#services"><i class="fas fa-cog"></i></a>
+        <a href="#skills"><i class="fas fa-laptop-code"></i></a>
+        <a href="#experience"><i class="fas fa-briefcase"></i></a>
+        <a href="#contact"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home">
+            <div class="profile-container">
+                <div class="profile-text">
+                    <h1>Hi, I'm Vincent P. Evangelista</h1>
+                    <h2>A dedicated Bachelor of Science in Information Technology (BSIT) student from the City of Malabon University</h2>
+                    <p>A 21 years old with a passion for coding and technology, I strive to develop innovative solutions that bridge the gap between people and technology. My interests lie in web development, database management, and software engineering.</p>
+                </div>
+                <img src="picture.jpg" alt="Profile Picture" class="profile-picture">
+            </div>
+        </section>
+
+        <section  class ="about" id="about">
+            <div class="content">
+                <div class="title"><span>About Me</span> </div>
+                <div class="about-details">
+                    <div class="left">
+                        <img src="picture.jpg">
+                    </div>
+                    <div class="right">
+                        <div class="topic">Designing is my passion</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <div class="button">
+                            <a href="Cv.pdf" download="Vincent_Evangelista_CV" class="download-btn">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class ="services" id="services">
+            <div class="content">
+                <div class="title"><span>My services</span></div>
+
+                <div class="boxes">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-desktop"></i></div>
+                        <div class="topic">Web development</div>
+                        <p>Building fast, responsive, and user-friendly websites tailored to your needs. From simple landing pages to complex web applications, I ensure high performance and seamless functionality.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                        <div class="topic">Web Design</div>
+                        <p>Crafting visually stunning and intuitive designs that bring your ideas to life. Focused on creating user-centered experiences with creativity and precision.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-icons"></i></div>
+                        <div class="topic">Icon Design</div>
+                        <p>Designing unique and scalable icons that elevate your brand's identity. Perfect for websites, apps, and marketing materials.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p>Skills Reflects Our Knowledge</p>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-name">
+                        <span class="skill-label">HTML</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">
+                        <span class="skill-label">CSS</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">
+                        <span class="skill-label">JavaScript</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">
+                        <span class="skill-label">PHP</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <div class="title"><span>My Experiences</span></div>
+            <div id="portfolio">
+                <div class="container">
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="work1.png" >
+                            <div class="layer">
+                                <h3>Book Store</h3>
+                                <p>An online website that you can use to add to cart, place order, and keep track of your book.</p>
+                                <a href="https://drive.google.com/drive/folders/1coed5OAtHTQILLT7k-bvtDYhAgS4A3dX?fbclid=IwY2xjawGsdLlleHRuA2FlbQIxMAABHYANH7Y8FPeBr0gsz4ZXbXcuF3dYE7Dt2Tfjn5Ps1i7q6xgWqlrC8Cn-0A_aem_wPc3uNTdr-UuHF_AX0oITQ"><i class="fas fa-external-link-alt"></i></a>
+                            </div>  
+                        </div>
+                        <div class="work">
+                            <img src="work2.png" >
+                            <div class="layer">
+                                <h3>Jollibee</h3>
+                                <p>Description test</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="title">
+              <span>Contact Me!</span>
+            </div>
+          
+            <div class="contact-container">
+              <!-- Left Section: Contact Info -->
+              <div class="contact-info">
+                <h2>Contact Me!</h2>
+                <p><i class="fa fa-envelope"></i> contact@gmail.com</p>
+                <p><i class="fa fa-phone"></i> 09123891</p>
+                <div class="social-media">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+          
+              <!-- Right Section: Contact Form -->
+              <div class="contact-form">
+                <form id="contact-form">
+                  <input type="text" id="name" placeholder="Your Name" required />
+                  <input type="email" id="email" placeholder="Your Email" required />
+                  <textarea id="message" placeholder="Your Message" required></textarea>
+                  <button type="button" onclick="sendMail()">Submit</button>
+                </form>
+              </div>
+            </div>
+          </section>
+          
+    </div>
+</body>
+</html>
