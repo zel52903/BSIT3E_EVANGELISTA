@@ -80,20 +80,20 @@ section {
 }
 .profile-container {
   display: flex;
-  align-items: center; /* Center items vertically */
-  margin-bottom: 20px; /* Space below the profile section */
+  align-items: center; 
+  margin-bottom: 20px; 
 }
 
 .profile-text {
-  margin-right: 40px; /* Space between text and image */
-  max-width: 600px; /* Control text width */
+  margin-right: 40px; 
+  max-width: 600px; 
 }
 
 .profile-picture {
   width: 400px;
   height: 500px;
-  object-fit: cover; /* Ensures the image is not stretched */
-  margin-left: 20px; /* Reduced space to the left of the image */
+  object-fit: cover;
+  margin-left: 20px; 
 }
 /* Skills Section */
 #skills h2{
@@ -200,14 +200,14 @@ section {
 }
 .about-details .right {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: flex-start; /* Align items to the left */
-  gap: 10px; /* Add spacing between elements */
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 10px; 
 }
 
 .about-details .right button {
-  align-self: flex-start; /* Ensure the button aligns with the content */
-  margin-top: 10px; /* Add extra space above the button */
+  align-self: flex-start; 
+  margin-top: 10px; 
 }
 
 #about .topic{
@@ -223,15 +223,15 @@ section {
 }
 
 #about .button {
-  margin-top: 20px; /* Add space between the text and the button */
-  text-align: left; /* Aligns the button to the left */
+  margin-top: 20px; 
+  text-align: left; 
 }
 
 #about .button a {
   outline: none;
   padding: 8px 16px;
   border-radius: 4px;
-  font-size: 16px; /* Adjust the font size if needed */
+  font-size: 16px; 
   font-weight: 400;
   background:red;
   color: white;
@@ -335,16 +335,16 @@ section {
 }
 
 .services .boxes .box .topic {
-  font-size: 24px; /* Increase the font size */
-  font-weight: bold; /* Make it bold */
-  color: #ff4500; /* Use a bright color, like orange-red */
-  margin-bottom: 10px; /* Add some spacing below the topic */
-  text-transform: uppercase; /* Optional: make the text uppercase */
-  transition: color 0.4s ease; /* Smooth transition on hover */
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #ff4500; 
+  margin-bottom: 10px; 
+  text-transform: uppercase; 
+  transition: color 0.4s ease; 
 }
 
 .services .boxes .box:hover .topic {
-  color: #004D40; /* Change the color when the box is hovered */
+  color: #004D40;
 }
 
 /* Contact CSS */
@@ -386,15 +386,15 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 20px; /* Add space between left and right sections */
+  gap: 20px; 
   padding: 20px;
   max-width: 1200px;
-  margin: 0 auto; /* Center the contact section */
+  margin: 0 auto;
 }
 
 .contact-info {
-  flex: 1; /* Make the left section take up equal space */
-  color: black; /* Ensure readable text color */
+  flex: 1; 
+  color: black; 
 }
 
 .contact-info h2 {
@@ -420,11 +420,11 @@ section {
 }
 
 .contact-info .social-media a:hover {
-  color: #007BFF; /* Change color on hover */
+  color: #007BFF; 
 }
 
 .contact-form {
-  flex: 1; /* Make the right section take up equal space */
+  flex: 1; 
 }
 
 .contact-form form {
